@@ -8,6 +8,8 @@ Usage: From the console: python src/chatbot.py
 """
 
 ## GIVEN CONSTANT COLLECTIONS
+
+# Define a dictionary of accounts.
 ACCOUNTS = {
     123456 : {"balance" : 1000.0},
     789012 : {"balance" : 2000.0}
@@ -17,12 +19,13 @@ VALID_TASKS = {"balance", "deposit", "exit"}
 
 ## CODE REQUIRED FUNCTIONS STARTING HERE:
 
+def get_account() -> int:
 
 
+## Input for account 
 
-## GIVEN CHATBOT FUNCTION
 ## REQUIRES REVISION
-"""
+
 def chatbot():
     '''
     The main program.  Uses the functionality of the functions:
@@ -96,4 +99,3 @@ def chatbot():
 """
 if __name__ == "__main__":
     chatbot()
-"""
